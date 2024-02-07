@@ -1,0 +1,69 @@
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ff9993;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  margin: 0.5rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ff505c;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #ffffff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.text{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  color: yellow;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.kiss{
+  height: 80%;
+  width: 80%;
+  border-radius: 38%;
+}
+
+.both-Button{
+  margin: 10px;
+  gap:10px
+}
+
+
